@@ -42,18 +42,6 @@ public class BST {
 		}
 	}
 	
-	/*public Node findNode(Node node, int n) {
-		
-		int value = node.data;
-		while(value != n)}{
-			findNode(node.left, n);
-			findNode(node.right, n);
-		}
-		
-		return node;
-		
-	}*/
-	
 	public void invert(Node node) {
 		
 		if(node != null) {
